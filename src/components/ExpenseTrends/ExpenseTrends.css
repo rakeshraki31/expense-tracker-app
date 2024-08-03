@@ -1,0 +1,40 @@
+.expense-trends {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.expense-trends h2 {
+  margin: 0 0 16px;
+  color: #333;
+  font-size: 18px;
+}
+
+.expense-chart {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.expense-bar {
+  display: flex;
+  align-items: center;
+}
+
+.category {
+  width: 120px;
+  font-size: 14px;
+  color: #555;
+}
+
+.bar-container {
+  background-color: #4c4c4c;
+  height: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.bar {
+  height: 100%;
+  background-color: #8A2BE2; /* Violet color */
+}

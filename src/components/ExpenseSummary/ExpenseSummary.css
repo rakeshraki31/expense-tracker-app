@@ -1,0 +1,9 @@
+.expense-summary {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .expense-summary h2 {
+    margin-bottom: 20px;
+  }
+  

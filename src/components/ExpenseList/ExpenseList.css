@@ -1,0 +1,102 @@
+.expense-items {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.expense-items {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.expense-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #4c4c4c;
+}
+
+.expense-icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.expense-details {
+  flex-grow: 1;
+}
+
+.expense-title {
+  font-weight: bold;
+}
+
+.expense-date {
+  font-size: 0.8em;
+  color: #aaa;
+}
+
+.expense-amount {
+  font-weight: bold;
+}
+
+.expense-actions {
+  display: flex;
+}
+
+.action-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 20px; /* Adjust size as needed */
+  margin-left: 10px; /* Space between buttons */
+}
+
+.delete-btn {
+  background-color: #FF3E3E; /* Red background for delete */
+  width: 37px;
+  height: 37px;
+  border-radius: 50%; /* Make button round */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); /* Adjusted shadow */
+  color: white; /* White color for the delete icon */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete-btn svg {
+  font-size: 20px; /* Adjust size as needed */
+}
+
+.edit-btn {
+  background-color: #F4BB4A; /* Light yellow background for edit */
+  width: 37px;
+  height: 37px;
+  border-radius: 50%; /* Make button round */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); /* Adjusted shadow */
+  color: white; /* White color for the edit icon */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.edit-btn svg {
+  font-size: 20px; /* Adjust size as needed */
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.page-btn {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.page-number {
+  margin: 0 10px;
+}

@@ -1,0 +1,63 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+  }
+  
+  .modal h2 {
+    margin-top: 0;
+  }
+  
+  .modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .add-balance-btn, .cancel-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700; /* Default weight for add-balance-btn, adjust if needed */
+    line-height: 21.79px;
+    text-align: center; /* Adjusted text alignment */
+  }
+  
+  .add-balance-btn {
+    background-color: #F4BB4A;
+    width: 145px;
+    height: 51px;
+    border-radius: 8px;
+    color: white;
+    /* Remove opacity to make it visible */
+  }
+  
+  .cancel-btn {
+    background-color: #E3E3E3;
+    width: 112px;
+    height: 51px;
+    border-radius: 8px;
+    color: black;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    /* Remove opacity to make it visible */
+  }
+  
+input.style{
+  border-radius:8px;
+}
